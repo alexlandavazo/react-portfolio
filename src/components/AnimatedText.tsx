@@ -1,25 +1,20 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-// Word wrapper
-const Wrapper = (props) => {
-  // We'll do this to prevent wrapping of words using CSS
-  return <span className="word-wrapper">{props.children}</span>;
+const Wrapper = ({ children }: { children: JSX.Element }) => {
+  return <span className="word-wrapper">{children}</span>;
 };
 
-// Map API "type" vaules to JSX tag names
-const tagMap = {
-  paragraph: 'p',
-  heading1: 'h1',
-  heading2: 'h2',
+type AnimatedTextProps = {
+  text: string;
+  className: string;
 };
 
-// AnimatedCharacters
-// Handles the deconstruction of each word and character to setup for the
-// individual character animations
-const AnimatedCharacters = (props) => {
+const AnimatedCharacters: React.FC<AnimatedTextProps> = ({
+  text,
+  ...props
+}) => {
   const [replay, setReplay] = useState(true);
-  // Placeholder text data, as if from API
 
   const container = {
     visible: {
@@ -43,23 +38,17 @@ const AnimatedCharacters = (props) => {
     },
   };
 
-  //  Split each word of props.text into an array
-  const splitWords = props.text.split(' ');
+  const splitWords = text.split(' ');
 
-  // Create storage array
-  const words = [];
+  const words: Array<any> = [];
 
-  // Push each word into words array
   for (const [, item] of splitWords.entries()) {
     words.push(item.split(''));
   }
 
-  // Add a space ("\u00A0") to the end of each word
   words.map((word) => {
     return word.push('\u00A0');
   });
-
-  // Get the tag name from tagMap
 
   return (
     <motion.div
@@ -72,7 +61,7 @@ const AnimatedCharacters = (props) => {
         return (
           // Wrap each word in the Wrapper component
           <Wrapper key={index}>
-            {words[index].flat().map((element, index) => {
+            {words[index].map((element: string, index: number) => {
               return (
                 <span
                   style={{
