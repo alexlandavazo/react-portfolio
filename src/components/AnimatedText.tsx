@@ -24,7 +24,6 @@ const AnimatedCharacters: React.FC<AnimatedTextProps> = ({
     },
   };
 
-  // Framer Motion variant object, for controlling animation
   const item = {
     hidden: {
       y: '200%',
@@ -33,8 +32,9 @@ const AnimatedCharacters: React.FC<AnimatedTextProps> = ({
     },
     visible: {
       y: 0,
-      color: '#000',
+      color: '#004466',
       transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.75 },
+      onHover: {scale: 2}
     },
   };
 
@@ -73,6 +73,8 @@ const AnimatedCharacters: React.FC<AnimatedTextProps> = ({
                   <motion.span
                     style={{ display: 'inline-block' }}
                     variants={item}
+                    whileHover={{scale: 1.2 }}
+                    className="m-2"
                   >
                     {element}
                   </motion.span>

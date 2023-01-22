@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <ScrollProgressBar />
-      <AnimatedText text="Alex Landavazo" className="text-9xl" />
+      <AnimatedText text="Alex Landavazo" className="text-9xl text-center" />
       <LoremIpsunPage />
     </div>
   );
