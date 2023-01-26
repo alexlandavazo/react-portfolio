@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className="flex w-full h-16 text-xl font-semibold">
       <div className="flex basis-3/5 justify-between">
         <div className="basis-56">Alejandro Landavazo</div>
-        <div className="basis-44">Front end Engineer at Parsable</div>
+        <div className="basis-44">Front end engineer at Parsable</div>
         <div>Based in Mexico</div>
       </div>
 
