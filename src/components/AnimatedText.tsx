@@ -18,8 +18,8 @@ const AnimatedCharacters: React.FC<AnimatedTextProps> = ({
   );
 
   (function addWhiteSpaceToWords() {
-    words.map((word) => {
-      return word.push('\u00A0');
+    words.map((word, index) => {
+      if (index !== words.length - 1) return word.push('\u00A0');
     });
   })();
 
