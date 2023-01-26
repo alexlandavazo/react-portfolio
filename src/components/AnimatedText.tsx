@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { container, item } from '../utils/framer-motion';
+import { containerWords, wordAnimations } from '../utils/framer-motion';
 
 type AnimatedTextProps = {
   text: string;
@@ -27,7 +27,7 @@ const AnimatedCharacters: React.FC<AnimatedTextProps> = ({
     <motion.div
       initial="hidden"
       animate={'visible'}
-      variants={container}
+      variants={containerWords}
       {...props}
     >
       {words.map((word, index) => {
@@ -44,7 +44,7 @@ const AnimatedCharacters: React.FC<AnimatedTextProps> = ({
                 >
                   <motion.span
                     style={{ display: 'inline-block' }}
-                    variants={item}
+                    variants={wordAnimations}
                     whileHover={{ scale: 1.2 }}
                     className="m-2"
                   >

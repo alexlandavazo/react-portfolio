@@ -1,4 +1,4 @@
-export const container = {
+export const containerWords = {
   visible: {
     transition: {
       staggerChildren: 0.025,
@@ -6,7 +6,7 @@ export const container = {
   },
 };
 
-export const item = {
+export const wordAnimations = {
   hidden: {
     y: '200%',
     color: '#0055FF',
