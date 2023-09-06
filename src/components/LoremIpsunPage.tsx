@@ -24,7 +24,7 @@ const LoremIpsunPage: React.FC = () => {
           Privacidad de vez en cuando. Te notificaremos sobre cualquier cambio
           publicando la nueva Política de Privacidad en esta página. Póngase en
           Contacto con Nosotros: Si tienes alguna pregunta o inquietud acerca de
-          nuestra Política de Privacidad, por favor contáctanos en
+          nuestra Política de Privacidad, por favor contáctanos en{' '}
           <code>alejandrolandavazo@gmail.com</code>.
         </p>
       </article>
