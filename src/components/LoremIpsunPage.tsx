@@ -2,80 +2,31 @@ import React from 'react';
 
 const LoremIpsunPage: React.FC = () => {
   return (
-    <div className='mt-24'>
+    <div className="mt-24">
       <h1 className="text-4xl font-bold text-center">
-        <code className="font-mono font-normal">useScroll</code> with spring
-        smoothing
+        Política de Privacidad de Watch Face Digital
       </h1>
       <article className="max-w-lg p-5 my-0 mx-auto">
+        <h2>Última actualización: 5 de Septiembre de 2023</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
-          rhoncus quam.
+          Esta Política de Privacidad describe cómo Watch Face Digital
+          ("nosotros", "nuestro", o "la aplicación") recopila, utiliza y
+          comparte información personal cuando utilizas nuestra aplicación Watch
+          Face Digital ("la aplicación"). Información que Recopilamos: No
+          recopilamos información personal de los usuarios de nuestra aplicación
+          Watch Face Digital. La aplicación es un reloj que no requiere acceso a
+          la información personal del usuario ni a ninguna otra información
+          sensible. Uso de la Información: Como no recopilamos información
+          personal, no utilizamos ni compartimos dicha información. La
+          aplicación no almacena datos personales y no tiene la capacidad de
+          realizar un seguimiento de la actividad del usuario. Cambios en esta
+          Política de Privacidad: Podemos actualizar nuestra Política de
+          Privacidad de vez en cuando. Te notificaremos sobre cualquier cambio
+          publicando la nueva Política de Privacidad en esta página. Póngase en
+          Contacto con Nosotros: Si tienes alguna pregunta o inquietud acerca de
+          nuestra Política de Privacidad, por favor contáctanos en
+          <code>alejandrolandavazo@gmail.com</code>.
         </p>
-        <p>
-          Fringilla quam urna. Cras turpis elit, euismod eget ligula quis,
-          imperdiet sagittis justo. In viverra fermentum ex ac vestibulum.
-          Aliquam eleifend nunc a luctus porta. Mauris laoreet augue ut felis
-          blandit, at iaculis odio ultrices. Nulla facilisi. Vestibulum cursus
-          ipsum tellus, eu tincidunt neque tincidunt a.
-        </p>
-        <h2>Sub-header</h2>
-        <p>
-          In eget sodales arcu, consectetur efficitur metus. Duis efficitur
-          tincidunt odio, sit amet laoreet massa fringilla eu.
-        </p>
-        <p>
-          Pellentesque id lacus pulvinar elit pulvinar pretium ac non urna.
-          Mauris id mauris vel arcu commodo venenatis. Aliquam eu risus arcu.
-          Proin sit amet lacus mollis, semper massa ut, rutrum mi.
-        </p>
-        <p>Sed sem nisi, luctus consequat ligula in, congue sodales nisl.</p>
-        <p>
-          Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
-          leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
-        </p>
-        <h2>Sub-header</h2>
-        <p>
-          Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
-          aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat
-          sem, sit amet tempor nulla. Quisque fermentum felis faucibus, vehicula
-          metus ac, interdum nibh. Curabitur vitae convallis ligula. Integer ac
-          enim vel felis pharetra laoreet. Interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Pellentesque hendrerit ac augue quis
-          pretium.
-        </p>
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
-        <p>
-          Pellentesque id lacus pulvinar elit pulvinar pretium ac non urna.
-          Mauris id mauris vel arcu commodo venenatis. Aliquam eu risus arcu.
-          Proin sit amet lacus mollis, semper massa ut, rutrum mi.
-        </p>
-        <p>Sed sem nisi, luctus consequat ligula in, congue sodales nisl.</p>
-        <p>
-          Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
-          leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
-        </p>
-        <h2>Sub-header</h2>
-        <p>
-          Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
-          aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat
-          sem, sit amet tempor nulla. Quisque fermentum felis faucibus, vehicula
-          metus ac, interdum nibh. Curabitur vitae convallis ligula. Integer ac
-          enim vel felis pharetra laoreet. Interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Pellentesque hendrerit ac augue quis
-          pretium.
-        </p>
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
       </article>
     </div>
   );
